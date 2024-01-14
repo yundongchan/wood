@@ -7,5 +7,5 @@ app = Flask(__name__)
 def index():
     return "hi";
 
-app.run(port = 3000)
+app.run()
 
